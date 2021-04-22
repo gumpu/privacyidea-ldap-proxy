@@ -8,8 +8,8 @@ Installation
 
 It is recommended to install ldap-proxy inside a virtualenv.
 
-    virtualenv2 venv
-    . ./venv/bin/activate
+    python3 -m venv ~/venv/ldapproxy
+    source ~/venv/ldapproxy/bin/activate
     pip install -r requirements.txt
     pip install .
 
